@@ -1,0 +1,6 @@
+print("hellow world!", end=' ')
+print("Go to ")
+print("Hell")
+print('Enter your name:')
+x = input()
+print('Hello, ' + x)
