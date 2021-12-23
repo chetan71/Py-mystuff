@@ -11,6 +11,8 @@ txt = open(filename)
 print(f"Here's your file {filename}:")
 print(txt.read())
 
+txt.close()
+
 txt1 = open(input("FILENAME>"))# I didn't put double quests so I got error
 print(f"this is the file name {filename}")
 

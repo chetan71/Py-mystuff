@@ -5,6 +5,7 @@ txt = open(ex15_sample_txt_file.py)
 
 print(f"Here's your file {filename}:")
 print(txt.read())
+txt.close()
 
 print("Type the filename again:")
 file_again = input("> ")

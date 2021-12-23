@@ -13,6 +13,8 @@ print(f"here's your file {filename}:")
 print(txt.read())
 #here we are using another new fucntion "read". here we are saying read txt veriable and then print it
 
+txt.close()
+
 print("Type the filename again:")
 file_again = input(">")
 #here we are simply printing string to understan the user what he have to give input
@@ -22,3 +24,5 @@ txt_again = open(file_again)
 #Same as above
 
 print(txt_again.read())
+
+txt_again.close()
