@@ -1,3 +1,4 @@
+''' I shorten the orignal code as short as possible.'''
 from sys import argv
 #from os.path import exists
 
