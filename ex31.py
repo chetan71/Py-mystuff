@@ -19,7 +19,7 @@ if door == "1":
         print(f"Well, doing {bear} is proably better.")
         print("Ber runs away.")
 
-    elif door == "2":
+elif door == "2":
         print("You stare into the endless abyss at Cthulhu's retina.")
         print("1. Blueberries.")
         print("2. Yellow jacket clothespins.")
@@ -27,14 +27,13 @@ if door == "1":
 
         insanity = input("> ")
 
-        if insanity = "1" or insanity == "2":
+        if insanity == "1" or insanity == "2":
             print("your body  servives powered by a mind of jello.")
             print("Good job!")
 
-    else:
-        print("The insanity rots your eyes into a pool of muck.")
-        print("Good job!")
+        else:
+            print("The insanity rots your eyes into a pool of muck.")
+            print("Good job!")
 
 else:
     print("You stumble around and fall on a knife  and die. good job!")
-    
