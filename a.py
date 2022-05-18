@@ -6,5 +6,5 @@ stuff = {
     'Michigan': 'MI'
 }
 
-a_list = list(stuff.item())
-print(a_list)
+list = list(stuff.items())
+print(list)
