@@ -23,7 +23,7 @@ Using the random.choice() and random.shuffle() Fuctions with Lists
     random.choice(pet)
 Augmented Assignment Operators
     like - "+="
-Finding a Value in a list with the index() Method
+Finding a index in a list with the index() Method
     >>> spam = ['hello', 'hi', 'howdy', 'heyas']
     >>> spam.index('hello')
     0
